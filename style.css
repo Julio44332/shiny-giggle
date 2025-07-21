@@ -1,0 +1,128 @@
+/* Basic Resets & Body Styles */
+body {
+    font-family: Arial, sans-serif; /* A clean, common font */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text */
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #333; /* Dark header background */
+    color: #fff; /* White text for header */
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0.5em 0;
+    font-size: 1.2em;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #444; /* Slightly lighter dark for nav */
+    padding: 0.8em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Arrange items in a row */
+    justify-content: center; /* Center the nav items */
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between nav items */
+}
+
+nav ul li a {
+    color: #fff; /* White link text */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+nav ul li a:hover {
+    color: #61dafb; /* Bright blue on hover */
+}
+
+/* Main Content Section Styles */
+main {
+    padding: 20px;
+    max-width: 900px; /* Limit content width */
+    margin: 20px auto; /* Center the main content */
+    background-color: #fff; /* White background for main sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #eee; /* Light line between sections */
+    margin-bottom: 20px;
+}
+
+section:last-child {
+    border-bottom: none; /* No line after the last section */
+    margin-bottom: 0;
+}
+
+section h2 {
+    color: #007bff; /* Blue heading for sections */
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+/* Project Item Styles */
+.project-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    color: #333;
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+/* Complete the .project-item a rule */
+.project-item a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 15px; /* Added 15px for horizontal padding */
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px; /* Space from description */
+    transition: background-color 0.3s ease;
+}
+
+.project-item a:hover {
+    background-color: #0056b3;
+}
+
+/* New Styling for the square frame around the timer project */
+.timer-frame {
+    border: 2px solid #61dafb; /* A bright blue border */
+    border-radius: 10px; /* Slightly rounded corners */
+    padding: 20px; /* Space inside the frame */
+    margin: 20px auto; /* Center the frame horizontally */
+    background-color: #e0f7fa; /* Light blue background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* A subtle shadow */
+    max-width: 450px; /* Adjust width as needed */
+    text-align: center; /* Center content within this frame */
+}
